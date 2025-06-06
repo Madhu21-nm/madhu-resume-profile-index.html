@@ -528,7 +528,9 @@ a{
   }
 
   th,td{
-    font-size: 12px;
+    height:80px;
+    width:auto;
+    font-size: 20px;
     padding: 6px;
     word-break: break-word;
   }
