@@ -490,6 +490,32 @@ a{
   }
 }
 
+
+@media screen and (max-width:524px) {
+
+  .hero{
+    height: 100%;
+  }
+  .hero p{
+    font-size: 13px;
+  }
+  .button{
+    font-size: 12px;
+  }
+  .hero button{
+    font-size: 18px;
+  }
+  p.name{
+    font-size: 22px;
+  }
+  .left{
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  
+}
+
+
 @media screen and (max-width: 423px) {
   .hero p{
     font-size: 10px;
@@ -519,6 +545,4 @@ a{
     width: 80px;
     height: 30px;
   }
-
-  
 }
