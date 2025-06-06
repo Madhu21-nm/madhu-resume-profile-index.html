@@ -11,34 +11,36 @@
   <section class="home" id="home">
     <div class="header" id="header">
         <img class="logo" id="logo" src="WhatsApp Image 2025-03-28 at 11.55.15_6355dabc.jpg" alt="">
-       <ul class="compo">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#education">Education</a>
-        </li>
-        <li>
-          <a href="#skills">Skills</a>
-        </li>
-        <li>
-          <a href="#personal_details">personal-details</a>
-        </li>
-        <li>
-          <a href="#certificates">Certificates</a>
-        </li>
-       </ul>
-       <button>
-        <a href="#footer">Contact</a>
-      </button>
+        <nav class="navbar">
+           <ul class="compo">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#education">Education</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#certificates">Certificates</a>
+            </li>
+           </ul>
+           <button>
+            <a href="#footer">Contact</a>
+          </button>
+        </nav>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
     </div>
 
     <div class="hero">
       <div class="left">
-        <p class="name">H!  I AM  B.MADHU</p>
+        <p class="name">H! I AM B.MADHU</p>
         <p class="desc">As an aspiring Software Engineer with a degree in [C.S.E], I possess a solid foundation in programming and software development. Proficient in Python, HTML and CSS I am equipped to address diverse technical challenges. Passionate about continuous learning, I am eager to contribute to innovative projects, leveraging my skills in a collaborative team environment to drive technological advancements.</p>
         <div class="button">
           <button>
@@ -70,7 +72,7 @@
        <div class="card">
         <div class="card-1"></div>
         <p class="card-2"><a href="loginpage/loginpage.html" target="_blank">Login Page (minor)</a></p>
-        <p class="card-3"> By using html,css and css animation from boost trap  create the login page</p>
+        <p class="card-3"> By using html,css and css animation from boost trap create the login page</p>
        </div>
        <div class="card">
         <div class="card-1"></div>
@@ -80,7 +82,7 @@
        <div class="card">
         <div class="card-1"></div>
         <p class="card-2"><a href="landing page 0/landingpage.html" target="_blank">Landing page (minor)</a></p>
-        <p class="card-3">  By using html and css create the landing page</p>
+        <p class="card-3"> By using html and css create the landing page</p>
        </div>
      </div>
   </section>
@@ -132,7 +134,7 @@
   </section>
 
   <section class="personal_details" id="personal_details">
-    <h2><u>PORSONAL DETAILS</u></h2>
+    <h2><u>PERSONAL DETAILS</u></h2>
     <ul>
       <li><b>Address:</b>Thippireddypalli, 516355, Andhra Pradesh, India</li>
       <li><b>Email:</b> madhubirru42@gmail.com</li>
@@ -166,5 +168,14 @@
 </u></p></div>
       </div>
    </section>
+
+   <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navbar = document.querySelector('.navbar');
+
+        hamburger.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+   </script>
 </body>
 </html>
