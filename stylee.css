@@ -526,7 +526,9 @@ a{
   .hero button{
     font-size: 15px;
   }
-
+  p.name{
+    font-size: 20px;
+  }
   th,td{
     height:80px;
     width:auto;
