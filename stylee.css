@@ -489,3 +489,36 @@ a{
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 423px) {
+  .hero p{
+    font-size: 10px;
+  }
+  .button{
+    font-size: 10px;
+  }
+  .hero button{
+    font-size: 15px;
+  }
+
+  th,td{
+    font-size: 12px;
+    padding: 6px;
+    word-break: break-word;
+  }
+  .education-heading{
+    font-size: 20px;
+  }
+  .table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .buttom{
+    width: 80px;
+    height: 30px;
+  }
+
+  
+}
