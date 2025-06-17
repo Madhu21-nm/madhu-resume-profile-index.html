@@ -61,3 +61,44 @@ button:active{
 .btn:active{
   background-color: hsl(35,100%,75%);
 }
+
+@media screen and (max-width:404px) {
+  .calculator{
+  width: 350px;
+  background-color: hsl(0,0%,15%);
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+.btns{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 9px;
+  gap: 8px;
+  border-radius: 10px;
+  
+}
+input{
+  width: 330.70px;
+  background-color: hsl(0, 10%, 80%);
+  border: 4px solid hsl(0,0%,15%);
+  height: 70px;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 8px;
+  border-radius: 12px;
+}
+button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: hsl(0,0%,30%);
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-weight: 600; 
+  cursor: pointer;
+}
+  
+}
